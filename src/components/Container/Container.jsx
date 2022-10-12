@@ -9,7 +9,7 @@ const Container = ({children, styles}) => {
   );
 };
 
-Greeting.propTypes = {
+Container.propTypes = {
   children: React.PropTypes.node
 };
 
