@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Container.module.css'
 
-const Container = ({children, styles}) => {
+const Container = ({children: e, styles}) => {
   return (
     // children: PropTypes.node
     <div className={s.container} style={styles}>
