@@ -9,8 +9,15 @@ const Container = ({children, styles}) => {
   );
 };
 
+
 Container.propTypes = {
-  children: React.PropTypes.node
+  children: React.Proptypes.node.isRequired
 };
 
 export default Container;
+
+// export default class NewContainer extends Component {
+// 	static propTypes = {
+// 		children: PropTypes.oneOfType([PropTypes.array, PropTypes.element]),
+// 		children: PropTypes.node }
+//   }
