@@ -3,12 +3,14 @@ import s from './Container.module.css'
 
 const Container = ({children, styles}) => {
   return (
-    // children: PropTypes.node
     <div className={s.container} style={styles}>
       {children}
-      {/* children: React.ReactNode[] */}
     </div>
   );
+};
+
+Greeting.propTypes = {
+  children: React.PropTypes.node
 };
 
 export default Container;
