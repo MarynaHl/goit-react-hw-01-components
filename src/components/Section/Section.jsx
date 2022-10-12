@@ -22,7 +22,9 @@ const Section = ({children, title}) => {
 };
 
 Container.propTypes = {
-  title: PropTypes.string
+  title: PropTypes.string,
+  children: PropTypes.node
 };
+
 
 export default Section;

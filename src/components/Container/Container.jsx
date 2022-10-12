@@ -11,7 +11,8 @@ const Container = ({children, styles}) => {
 
 
 Container.propTypes = {
-  children: Proptypes.node.isRequired
+  children: React.Proptypes.node.isRequired
 };
 
 export default Container;
+
