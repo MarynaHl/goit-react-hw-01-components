@@ -6,6 +6,7 @@ const Container = ({children, styles}) => {
     // children: PropTypes.node
     <div className={s.container} style={styles}>
       {children}
+      {/* children: React.ReactNode[] */}
     </div>
   );
 };
